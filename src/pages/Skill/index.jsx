@@ -36,11 +36,14 @@ const Skill = () => {
                     <div className={styles.projetos}>
                         <div className={styles.calculadora}>
                             <h3>Calculadora</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At officiis voluptas dolores delectus deserunt quam rerum blanditiis, laborum laboriosam quaerat, adipisci, earum saepe. Consequatur et ipsam libero suscipit iste vel.</p>
+                            <p>Trabalho da calculadora do projeto Pretalab Santander.</p>
+                            <p>Linguagem Javascript</p>
+                            <a href="https://projetocalmedia.netlify.app/">Calculadora</a>
                         </div>
                         <div className={styles.landingpage}>
-                            <h3>Langing Page</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur similique sapiente enim a amet dolorum. Ipsa voluptate voluptas necessitatibus, sapiente quae sequi dolorum laboriosam, consequuntur voluptatem, quisquam voluptatum obcaecati at?</p>
+                            <h3>Landing Page</h3>
+                            <p>Confira meu primeiro portfólio! Uma breve coleção de projetos que refletem minha paixão pelo design e desenvolvimento. Explore meu trabalho.</p>
+                            <a href="https://portifoliouxfron.netlify.app/">Portfólio</a>
                         </div>
                     </div>
                 </div>    
