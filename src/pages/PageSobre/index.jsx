@@ -1,5 +1,6 @@
 import React from "react";
 import styles from './sobremim.module.css';
+import fotoperfil from '../../assets/foto-perfil.png'
 const PageSobre = () => {
     return ( 
         <div className={styles.PageSobre}>
@@ -10,7 +11,7 @@ const PageSobre = () => {
                         <div className={styles.home}>
                             <h2 className={styles.titulo}>Olá, eu sou Geyza!<br/><br/></h2>
                             <h2 className={styles.subtitulo}>Criando Interfaces, do Design ao Código.</h2>    
-                            <img src="src/assets/foto-perfil.png" alt="foto perfil" className={styles.fotoperfil} />   
+                            <img src={fotoperfil} />   
                         </div>                       
                         <section className={styles.sobremim}>
                             <h2 className={styles.sm}>Sobre mim</h2>
