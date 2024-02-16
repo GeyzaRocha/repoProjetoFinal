@@ -1,0 +1,13 @@
+:root{
+  --primary-color: rgba(112, 119, 161, 1);
+  --text-color: #fff;
+  --font-size-large: 24px;
+  --font-size-medium: 18px;
+  --font-size-small: 14px;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
