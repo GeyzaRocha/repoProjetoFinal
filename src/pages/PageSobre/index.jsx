@@ -3,17 +3,22 @@ import styles from './sobremim.module.css';
 const PageSobre = () => {
     return ( 
         <div className={styles.PageSobre}>
-            <main>
+            <main><br/>
                 <section>
-                    <article className={`${styles.subcontainerPrincipal} ${styles.container}` }>
+                    <article className={`${styles.containerPrincipal}` }>
+                        
                         <div className={styles.home}>
-                            <h1>Olá, eu sou Geyza</h1>
-                            <h2>Criando Interfaces,<br />Do Design ao Código.</h2>
-                        </div>
-                    
+                            <h2 className={styles.titulo}>Olá, eu sou Geyza!<br/><br/></h2>
+                            <h2 className={styles.subtitulo}>Criando Interfaces, do Design ao Código.</h2>    
+                            <img src="src/assets/foto-perfil.png" alt="foto perfil" className={styles.fotoperfil} />   
+                        </div>                       
                         <section className={styles.sobremim}>
-                            <h2>Sobre mim</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolor nulla labore voluptates, id, quis, corrupti repellendus voluptas quos fugiat earum tempore! Aut dolores temporibus minus, ad nesciunt facere. Voluptatem.</p>
+                            <h2 className={styles.sm}>Sobre mim</h2>
+                            <p className={styles.texto}>Acredito que a mágica acontece quando o design e o código se encontram. 
+                                Eu vejo cada interface como uma história única, onde o visual e o código 
+                                se unem para criar algo especial. Minha abordagem é guiada pela ideia 
+                                de harmonizar o design meticuloso com uma execução de código precisa.
+                            </p>
                         </section>
                     </article>
                 </section>

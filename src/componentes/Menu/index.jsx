@@ -12,15 +12,15 @@ const Menu = () => {
           </Link>
         </li>
         <li>
-          <Link className={styles.menuItem} to="/formulario">
+          <Link className={styles.menuItem} to="/skills">
           Skills
           </Link>
         </li>
         <li>
-          <Link className={styles.menuItem} to="/sobre">
+          <Link className={styles.menuItem} to="/contatos">
           Contatos
           </Link>
-          <Link className={styles.menuItem} to="/sobre">
+          <Link className={styles.menuItem} to="/comentarios">
           Comentários
           </Link>
         </li>

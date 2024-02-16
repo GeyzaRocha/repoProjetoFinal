@@ -1,13 +1,80 @@
-.PageSobre{
-    height: 433px;
-    background-color: #2D3250;
+.Principal{
+    height: 100%;
     display: flex;
+    width: 100%;
+/*    list-style: none;
+    position: fixed;
+    top: 50px;*/
+}
+
+.Skills{
+    height: 30%;
+    background-color: #2D3250;
     align-items: center;
     list-style: none;
     padding: 15px 0;
     position: fixed;
     top: 50px;
     width: 100%;
+}
+
+.Skills h1{
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.containerProjetos{
+    height: 74%;
+    top: 26%;
+    background-color: #f6b17a;
+    position: fixed;
+}
+
+.containerProjetos h2{
+    text-align: center;
+    justify-content: center;
+}
+
+.containerlogos{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 3% 0 3% 0;
+}
+
+.tagp{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.divprojetos{
+    margin: 3% 0 3% 0;
+}
+
+.projetos{
+    display: flex;
+}
+
+.calculadora, .landingpage {
+    flex: 1; /* Faz com que as divs ocupem o mesmo espaço */
+    width: 15%;
+}
+.projetos h2,h3{
+    color: #2D3250;
+}   
+-------------------------------------------------
+.logos{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    
+}
+.logos img{
+    margin-right: 1px;
 }
 
 .containerPrincipal {
