@@ -42,7 +42,7 @@ const Skill = () => {
                         </div>
                         <div className={styles.landingpage}>
                             <h3>Landing Page</h3>
-                            <p>Confira meu primeiro portfólio! Uma breve coleção de projetos que refletem minha paixão pelo design e desenvolvimento. Explore meu trabalho.</p>
+                            <p>Confira meu primeiro portfólio! Uma breve coleção de projetos que refletem minha paixão pelo design e desenvolvimento. Explore meu trabalho e deixe-me saber o que você achou!</p>
                             <a href="https://portifoliouxfron.netlify.app/">Portfólio</a>
                         </div>
                     </div>
